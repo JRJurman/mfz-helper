@@ -1,9 +1,8 @@
 {
-  "name": "mfz-helper",
+  "name": "mfz-pc",
   "version": "1.0.0",
-  "description": "Mobile Frame Zero Vue App",
+  "description": "Mobile Frame Zero Pocket Calculator",
   "author": "jrjurman (jrjurman@gmail.com)",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -13,7 +12,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
-    "vue": "^2.2.6"
+    "hypervue": "^0.4.1",
+    "tachyons": "^4.7.4",
+    "vue": "^2.2.6",
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
